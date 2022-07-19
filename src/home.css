@@ -1,0 +1,169 @@
+
+/*body {
+	background: url('background.jpg');
+	background-position: center;
+	background-size: contain;
+	color: #eee;
+}*/
+
+.home {
+	/*width: max-content;*/
+	/*background: rgba(0, 0, 0, 0.8);*/
+	width: 100vw;
+	height: 100vh;
+
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	padding: 20px 10vw;
+	/*text-align: center;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title-sesi {
+	font-weight: bolder;
+}
+
+pre {
+	max-width: 80vw;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+pre p {
+	font-weight: bolder;
+}
+
+.msg {
+	border: 1px dashed gray;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+h1,
+.form-kelas,
+.share-btn {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.label {
+  display: inline-block;
+  width: 60px;
+  text-align: left;
+}
+
+select {
+	margin: 0 5px;
+}
+
+.form2sesi {
+	display: flex;
+	/*flex-direction: column;*/
+	gap: 50px;
+
+	justify-content: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.share-btn {
+	padding: 0.5rem 1rem;
+	display: flex;
+}
+
+svg {
+	margin: 0 1rem;
+}
+
+.receivers-msg {
+	font-size: 0.8rem;
+}
+
+.whatsapp-ico {
+	/*display: inline-block;*/
+/*	position: absolute;
+	right: 5vw;
+	top: calc(20px + 0.5rem);*/
+	/*float: right;*/
+}
+
+
+/*.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}*/
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+	right: 10vw;
+	top: calc(20px + 0.5rem);
+	text-align: center;
+}
+
+.dropdown button {
+	padding: 0.3rem 1rem;
+}
+
+.dropdown button:hover {background-color: #ddd;}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: max-content;
+  /*min-width: 160px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content button:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+.qr-code {
+	width: 400px;
+	height: 400px;
+	background-color: #eee;
+	position: absolute;
+	top: calc(50% - 200px);
+	left: calc(50% - 200px);
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 10px 2px #000;
+}
+
+/*.dropdown:hover .whatsapp-ico {color: #3e8e41;}*/
